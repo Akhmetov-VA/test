@@ -9,9 +9,13 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
 
+def print_hi_surname(surname):
+    print(f'Hi, {surname}')
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
     print('Hello new git branch')
+    print_hi_surname('Akhmetov')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
